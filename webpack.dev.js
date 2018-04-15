@@ -6,6 +6,6 @@ module.exports = merge(common,{
     mode:'development',
     devServer:{
         contentBase: './dist',
-        historyApiFallback: true,
+        historyApiFallback: true,   //for get route on refresh.
     }
 })
